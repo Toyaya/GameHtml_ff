@@ -1,0 +1,852 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", Arial, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ccc;
+}
+html{
+    width:100%;
+    overflow-x:hidden;
+}
+.brand {
+    background: #1b1b1b;
+    height: 38px;
+    position: relative;
+}
+.brand_logo{
+    float: left;
+    display: inline;
+    line-height: 30px;
+}
+.brand_logo img{
+    margin: 13px 0 0 10px;
+}
+#sqexaccount {
+    float: right;
+    margin-top: 4px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+}
+#contentsWrap {
+    width: 100%;
+    height:1259px;
+    overflow: hidden;
+    position: relative;
+    font-family: 'メイリオ','Meiryo','ヒラギノ角ゴPro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+    background: rgb(239,238,234);
+    min-width:980px;
+}
+#contentsWrap h1, #contentsWrap h2, #contentsWrap h3, #contentsWrap h4, #contentsWrap div, #contentsWrap p, #contentsWrap ul, #contentsWrap ol, #contentsWrap li, #contentsWrap table, #contentsWrap thead, #contentsWrap tbody, #contentsWrap tr, #contentsWrap th, #contentsWrap td {
+    margin: 0;
+    padding: 0;
+    text-indent: -65535px;
+}
+#ffxivft_page0 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: -100%;
+    min-width:980px;
+}
+#ffxivft_title {
+    width: 980px;
+    height: 265px;
+    position: relative;
+    margin: 0 auto !important;
+    background: url(../img/title_bg01.jpg) no-repeat left top;
+}
+#ffxivft_title h1 {
+    width: 372px;
+    height: 114px;
+    position: absolute;
+    top: 15px;
+    left: 304px;
+    background: url(../img/title_ph01.png) no-repeat left top;
+}
+#ffxivft_title h2 {
+    width: 552px;
+    height: 74px;
+    position: absolute;
+    top: 156px;
+    left: 217px;
+    background: url(../img/title_ph02.png) no-repeat left top;
+}
+#ffxivft_title p {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 9px;
+    left: 794px;
+    background: url(../img/title_ph03.png) no-repeat left top;
+}
+#ffxivft_letsplay {
+    width: 980px;
+    height: 240px;
+    position: relative;
+    margin: 0 auto !important;
+    background: url(../img/title_bg01.jpg) no-repeat left -265px;
+}
+#ffxivft_letsplay p.copy1 {
+    width: 406px;
+    height: 74px;
+    position: absolute;
+    top: 31px;
+    left: 287px;
+    background: url(../img/title_ph04.png) no-repeat left top;
+}
+#ffxivft_letsplay ul {
+    width: 916px;
+    height: 99px;
+    position: absolute;
+    top: 115px;
+    left: 32px;
+    list-style: none;
+}
+#ffxivft_letsplay ul li {
+    width: 302px;
+    height: 99px;
+    position: absolute;
+}
+#ffxivft_letsplay ul li.ps4 {
+    top: 0;
+    left: 308px;
+    background: url(../img/title_ph05_1.png) no-repeat left top;
+}
+#ffxivft_letsplay ul li.ps4:hover{
+    background-position: 0 -104px;
+}
+#ffxivft_letsplay ul li.ps3 {
+    top: 0;
+    left: 614px;
+    background: url(../img/title_ph05_2.png) no-repeat left top;
+}
+#ffxivft_letsplay ul li.win {
+    top: 0;
+    left: 0;
+    background: url(../img/title_ph05_3.png) no-repeat left top;
+}
+#ffxivft_letsplay ul li.win:hover{
+    background-position: 0 -104px;
+}
+#ffxivft_topic {
+    width: 980px;
+    height: 198px;
+    position: relative;
+    margin: 0 auto !important;
+    background: url(../img/title_ph06.png) no-repeat left top;
+}
+#ffxivft_description {
+    width: 980px;
+    height: 88px;
+    position: relative;
+    margin: 0 auto !important;
+    background: rgb(255,255,255);
+}
+#ffxivft_description p {
+    width: 907px;
+    height: 77px;
+    position: absolute;
+    top: 6px;
+    left: 35px;
+    background: url(../img/title_ph07.png) no-repeat left top;
+}
+#ffxivft_description p:hover{
+    background-position: 0 -82px;
+}
+#ffxivft_copy2 {
+    width: 980px;
+    height: 532px;
+    position: relative;
+    margin: 0 auto !important;
+    background: rgb(255,255,255) url(../img/title_ph08.png) no-repeat left top;
+}
+
+/*footer*/
+.l__footer {
+    background: #484c4e;
+    min-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    height: 1%;
+    position: relative;
+    z-index: 10;
+}
+.l__footer__inner {
+    padding: 16px 0 0;
+    width: 960px;
+    margin: 0 auto;
+}
+.l__footer__logo {
+    width: 328px;
+    height: 32px;
+    margin: 0 auto 16px;
+    position: relative;
+}
+.l__footer__information {
+    position: relative;
+    margin-bottom: 24px;
+    height: 64px;
+}
+.l__footer__information__line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    display: block;
+    opacity: .1;
+}
+.l__footer__information__title {
+    width: 467px;
+    float: left;
+    text-align: right;
+    color: #808080;
+    font-size: 12px;
+    padding-right: 13px;
+}
+.l__footer__officielles__title {
+    padding-top: 8px;
+    margin-bottom: 8px;
+}
+.l__footer__platformes__title {
+    margin-bottom: 8px;
+}
+.l__footer__information__items {
+    width: 466px;
+    float: right;
+    padding-left: 14px;
+    text-align: left;
+}
+.l__footer__officielles__link {
+    padding-top: 8px;
+    margin-bottom: 9px;
+}
+.l__footer__officielles__link li {
+    display: inline-block;
+    line-height: 16px;
+    margin-right: 12px;
+}
+.l__footer__officielles__link li a {
+    display: inline-block;
+    position: relative;
+    color: #cccccc;
+    line-height: 16px;
+}
+.l__footer__officielles__link--fb {
+    padding-left: 20px;
+}
+.l__footer__officielles__link li a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+}
+.l__footer__officielles__link li a {
+    text-decoration: underline;
+}
+.l__footer__officielles__link--fb:after {
+    width: 16px;
+    height: 16px;
+    background-position: 0 0;
+    background-size: 59px auto;
+    display: block;
+    background-image: url('../img/footer-s257b20914b.png');
+    background-repeat: no-repeat;
+    margin-top: -9px;
+}
+.l__footer__officielles__link--tw {
+    padding-left: 20px;
+}
+.l__footer__officielles__link--tw:after {
+    width: 16px;
+    height: 16px;
+    background-position: -27px 0;
+    background-size: 59px auto;
+    display: block;
+    background-image: url('../img/footer-s257b20914b.png');
+    background-repeat: no-repeat;
+}
+.l__footer__officielles__link--yt {
+    padding-left: 20px;
+}
+.l__footer__officielles__link--yt:after {
+    width: 16px;
+    height: 16px;
+    background-position: -43px 0;
+    background-size: 59px auto;
+    display: block;
+    background-image: url('../img/footer-s257b20914b.png');
+    background-repeat: no-repeat;
+}
+.l__footer__officielles__link--ig {
+    padding-left: 20px;
+}
+.l__footer__officielles__link--ig:after {
+    background: url('../img/ic_instagram.png') no-repeat;
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+}
+.l__footer__platformes__items {
+    margin-bottom: 10px;
+}
+.l__footer__link-list {
+    text-align: center;
+    margin-bottom: 16px;
+}
+.l__footer__link-list li {
+    display: inline-block;
+}
+.l__footer__link-list li a {
+    color: #cccccc;
+    font-size: 10px;
+    text-decoration: underline;
+}
+.l__footer__link-list li:after {
+    content: "";
+    display: inline-block;
+    border-radius: 3px;
+    width: 6px;
+    height: 6px;
+    background: #808080;
+    margin: 0 5px;
+}
+#ffxivft_page1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width:980px;
+}
+#ffxivft_page1 div.frame {
+    width: 980px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto !important;
+}
+#ffxivft_contentmenu {
+    width: 320px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#ffxivft_contentmenu h1 {
+    width: 320px;
+    height: 203px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/content_ph01.jpg) no-repeat left top;
+}
+#ffxivft_contentmenu ul {
+    width: 320px;
+    height: 491px;
+    position: absolute;
+    top: 203px;
+    left: 0;
+    text-indent: 0;
+    list-style-type: none;
+}
+#ffxivft_contentmenu ul li {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#ffxivft_contentmenu ul li.menu0.act {
+    background-position: 0 -108px;
+}
+
+#ffxivft_contentmenu ul li.menu0 {
+    width: 318px;
+    height: 103px;
+    top: 0;
+    left: 2px;
+    background: url(../img/content_ph02_1.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu3.act {
+    background-position: 0 -118px;
+}
+#ffxivft_contentmenu ul li.menu3 {
+    width: 220px;
+    height: 54px;
+    top: 98px;
+    left: 100px;
+    background: url(../img/content_ph03_3.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu1 {
+    width: 220px;
+    height: 54px;
+    top: 147px;
+    left: 100px;
+    background: url(../img/content_ph03_1.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu1:hover{
+    background-position: 0 -59px;
+}
+#ffxivft_contentmenu ul li.menu2 {
+    width: 220px;
+    height: 54px;
+    top: 196px;
+    left: 100px;
+    background: url(../img/content_ph03_2.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu8 {
+    width: 318px;
+    height: 103px;
+    top: 245px;
+    left: 2px;
+    background: url(../img/content_ph02_2.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu8:hover{
+    background-position: 0 -108px;
+}
+#ffxivft_contentmenu ul li.menu9 {
+    width: 220px;
+    height: 54px;
+    top: 343px;
+    left: 100px;
+    background: url(../img/content_ph03_4.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu9:hover{
+    background-position: 0 -59px;
+}
+#ffxivft_contentmenu ul li.menu10 {
+    width: 220px;
+    height: 54px;
+    top: 392px;
+    left: 100px;
+    background: url(../img/content_ph03_5.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu10:hover{
+    background-position: 0 -59px;
+}
+#ffxivft_contentmenu ul li.menu11 {
+    width: 220px;
+    height: 54px;
+    top: 441px;
+    left: 100px;
+    background: url(../img/content_ph03_6.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu11:hover{
+    background-position: 0 -59px;
+}
+#ffxivft_contentmenu ul li.menu12 {
+    width: 220px;
+    height: 54px;
+    top: 490px;
+    left: 100px;
+    background: url(../img/content_ph03_7.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu12:hover{
+    background-position: 0 -59px;
+}
+#ffxivft_contentmenu ul li.menu4 {
+    width: 318px;
+    height: 103px;
+    top: 539px;
+    left: 2px;
+    background: url(../img/content_ph02_3.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu4:hover{
+    background-position: 0 -108px;
+}
+#ffxivft_contentmenu ul li.menu5 {
+    width: 318px;
+    height: 103px;
+    top: 637px;
+    left: 2px;
+    background: url(../img/content_ph02_4.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu5:hover{
+    background-position: 0 -108px;
+}
+#ffxivft_contentmenu ul li.menu6 {
+    width: 318px;
+    height: 103px;
+    top: 735px;
+    left: 2px;
+    background: url(../img/content_ph02_5.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu6:hover{
+    background-position: 0 -108px;
+}
+#ffxivft_contentmenu ul li.menu7 {
+    width: 318px;
+    height: 103px;
+    top: 833px;
+    left: 2px;
+    background: url(../img/content_ph02_6.png) no-repeat 0 0;
+}
+#ffxivft_contentmenu ul li.menu7:hover{
+    background-position: 0 -108px;
+}
+#ffxivft_contentbody {
+    width: 660px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 320px;
+    background: rgb(255,255,255);
+}
+#ffxivft_contentbody div.window {
+    width: 610px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 223px;
+    left: 24px;
+}
+#ffxivft_contentbody div.text2 h3 {
+    width: 581px;
+    height: 20px;
+    margin: 0 0 21px 13px;
+    padding: 0;
+    background: url(../img/ph07.png) no-repeat 0 0;
+}
+#ffxivft_contentbody div.text2 ul.menu {
+    width: 610px;
+    height: 60px;
+    margin: 21px 0 37px;
+    position: relative;
+    text-indent: 0;
+    list-style-type: none;
+}
+#ffxivft_contentbody div.text2 ul.menu a li {
+    position: relative;
+    float: left;
+}
+#ffxivft_contentbody div.text2 ul.menu li {
+    display: block;
+    width: 152px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: -65535px;
+    background: url(../img/ph07.png) no-repeat 0 -85px;
+}
+#ffxivft_contentbody div.text2 ul.menu li:hover{
+    background-position: 0 -85px;
+}
+#ffxivft_contentbody div.text2 ul.menu li.menu111 {
+    width: 153px;
+    background-position: -152px -25px;
+}
+#ffxivft_contentbody div.text2 ul.menu li.menu111:hover {
+    width: 153px;
+    background-position: -152px -85px;
+}
+#ffxivft_contentbody div.text2 ul.menu li.menu222 {
+    width: 153px;
+    background-position: -305px -25px;
+}
+#ffxivft_contentbody div.text2 ul.menu li.menu222:hover {
+    width: 153px;
+    background-position: -305px -85px;
+}
+#ffxivft_contentbody div.text2 ul.menu li.menu333 {
+    background-position: -458px -25px;
+}
+#ffxivft_contentbody div.text2 ul.menu li.menu333:hover {
+    background-position: -458px -85px;
+}
+#ffxivft_contentbody div.text2 div.container {
+    width: 2440px;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#ffxivft_contentbody div.text2 div.container div.block {
+    width: 610px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    counter-reset: section;
+}
+#ffxivft_contentbody div.text2 div.container div.block h4 {
+    width: 610px;
+    height: 86px;
+    margin: 0 0 27px;
+    padding: 0;
+    text-indent: -65535px;
+    background: url(../img/ph07.png) no-repeat 0 -145px;
+}
+#ffxivft_contentbody div h4 {
+    margin: 16px 17px 0 15px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: bold;
+    text-indent: 0;
+    color: rgb(0,0,0);
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn0 {
+    width: 610px;
+    height: 162px;
+    margin: 36px 0 11px;
+    padding: 0;
+    background: url(../img/ph07_1_1.png) no-repeat 0 0;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn0:hover{
+    background-position: 0 -167px;
+}
+#ffxivft_contentbody div.window div h5 {
+    margin: 16px 17px 0 15px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: bold;
+    text-indent: 0;
+    color: rgb(0,0,0);
+}
+#ffxivft_contentbody div.window div p {
+    margin: 0 17px 9px 35px;
+    font-size: 16px;
+    line-height: 28px;
+    text-indent: 0;
+    color: rgb(0,0,0);
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn7 {
+    width: 610px;
+    height: 90px;
+    margin: 28px 0 38px;
+    padding: 0;
+    background: url(../img/ph07_1.png) no-repeat 0 -996px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn7:hover{
+    background-position: 0 -1091px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn1 {
+    width: 243px;
+    height: 31px;
+    margin: 45px 0 0;
+    padding: 0;
+    float: left;
+    background: url(../img/ph07_1.png) no-repeat 0 -320px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn1:hover{
+    transform: scale(1.05,1.05);
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn2 {
+    width: 319px;
+    height: 78px;
+    margin: 21px 0 0;
+    padding: 0;
+    float: right;
+    background: url(../img/ph07.png) no-repeat 0 -522px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn2:hover{
+    transform: scale(1.05,1.05);
+}
+#ffxivft_contenthead {
+    width: 660px;
+    height: 223px;
+    position: absolute;
+    top: 0;
+    left: 320px;
+    background: rgb(255,255,255);
+}
+#ffxivft_contenthead h2 {
+    width: 660px;
+    height: 203px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/content_ph01.jpg) no-repeat -320px top;
+}
+#ffxivft_contentbody div.text2 div.container div.block h4.hdr2 {
+    background-position: 0 -231px;
+}
+#ffxivft_contentbody div.window div ol {
+    margin: 9px 17px 0 13px;
+    padding: 0;
+
+}
+#ffxivft_contentbody div.window div ol > li {
+    margin: 0 0 20px 22px;
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    text-indent: 0;
+    color: rgb(0,0,0);
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn3 {
+    width: 319px;
+    height: 78px;
+    margin: 21px 0 0;
+    padding: 0;
+    float: right;
+    background: url(../img/ph07.png) no-repeat 0 -605px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn3:hover{
+    transform: scale(1.05,1.05);
+}
+#ffxivft_contentbody div.text2 div.container div.block h4.hdr3 {
+    height: 114px;
+    background-position: 0 -317px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.img0 {
+    width: 580px;
+    height: 329px;
+    margin: 0 15px 20px;
+    padding: 0;
+    background: url(../img/ph07_2.jpg) no-repeat center top;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn4 {
+    width: 319px;
+    height: 78px;
+    margin: 21px 0 0;
+    padding: 0;
+    float: right;
+    background: url(../img/ph07.png) no-repeat 0 -688px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.btn4:hover{
+    transform: scale(1.05,1.05);
+}
+#ffxivft_contentbody div.text2 div.container div.block h4.hdr4 {
+    background-position: 0 -431px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.img1 {
+    width: 610px;
+    height: 387px;
+    margin: 40px 0;
+    padding: 0;
+    position: relative;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.img1_1 {
+    width: 610px;
+    height: 207px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/ph07_3.jpg) no-repeat 0 0;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.img1_1:hover{
+    background-position: 0 -387px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.img1_2 {
+    width: 305px;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 207px;
+    left: 0;
+    background: url(../img/ph07_3.jpg) no-repeat 0 -207px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.img1_2:hover{
+    background-position:0 -594px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.img1_3 {
+    width: 305px;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 207px;
+    left: 305px;
+    background: url(../img/ph07_3.jpg) no-repeat -305px -207px;
+}
+#ffxivft_contentbody div.text2 div.container div.block div.img1_3:hover{
+    background-position:-305px -594px;
+}
+#ffxivft_totop {
+    width: 163px;
+    height: 49px;
+    position: fixed;
+    right: 0;
+    bottom: 19px;
+    cursor: pointer;
+    z-index: 100;
+    background: url(../img/ph01.png) no-repeat left top;
+}
+#ffxivft_totop:hover{
+    background-position:left bottom;
+}
+
+#ffxivft_contentbody div.text0 {
+    width: 610px;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: rgb(255,255,255);
+    z-index: 0;
+    display: none;
+}
+#ffxivft_contentbody div.text0 h3 {
+    width: 581px;
+    height: 20px;
+    margin: 0 0 21px 13px;
+    padding: 0;
+    background: url(../img/ph12.png) no-repeat 0 0;
+}
+#ffxivft_contentbody div.text0 div.container div.block h4.hdr1 {
+    background-position: 0 -145px;
+}
+#ffxivft_contentbody div.window div table {
+    width: 580px;
+    height: auto;
+    margin: 29px 15px;
+    border-collapse: collapse;
+}
+#ffxivft_contentbody div.window div table thead th {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+    text-indent: 0;
+    text-align: center;
+    color: rgb(255,255,255);
+    background: rgb(153,153,153);
+    border-bottom: solid 1px rgb(255,255,255);
+}
+#ffxivft_contentbody div.window div table tbody th {
+    width: 200px;
+    padding: 2px 10px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+    text-indent: 0;
+    text-align: right;
+    vertical-align: top;
+    color: rgb(0,0,0);
+    background: rgb(204,204,204);
+    border-bottom: solid 1px rgb(255,255,255);
+}
+#ffxivft_contentbody div.window div table tbody td {
+    padding: 2px 10px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+    text-indent: 0;
+    text-align: left;
+    color: rgb(0,0,0);
+    background: rgb(220,220,220);
+    border-bottom: solid 1px rgb(255,255,255);
+}
+

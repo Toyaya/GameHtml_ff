@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FINAL FANTASY XIV, The Lodestone</title>
+    <link rel="shortcut icon" href="CHOICELANGUAGE/img/favicon.ico">
+    <link rel="stylesheet" href="LODESTONE_LOGIN/css/LODESTONE_LOGIN_hk.css"/>
+    <script type="text/javascript" src="LODESTONE/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".loin").click(function () {
+                if($("#sqexid").val()==""||$("#password").val()==""){
+                    alert("Please checck ID or Password");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div id="backGroundSet" style="BACKGROUND: url(LODESTONE_LOGIN/img/lds_body-bk_en_fr2.png) #000000 no-repeat 50% 38px">
+    <div id="headerArea">
+        <div id="sqexheaderBlack_bg"></div>
+        <div class="separateHr1"></div>
+        <div id="ldsLogoArea">
+            <div style="width:250px;height:100%;margin:auto;">
+                <a href="#" style="display:block;width:100%;height:100%;">
+
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="menuArea">
+        <div id="topicpath-body">
+            <ul>
+                <li class="topicpath-home">
+                    <a href="#" class="btTopicHome"></a>
+                </li>
+                <li class="topicpath-path"></li>
+                <li class="topicpath-current">Log In</li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div id="contentArea">
+        <div id="view-titleArea" style="background: url(LODESTONE_LOGIN/img/lds_login_header_en.png) no-repeat;" ></div>
+        <div class="form-top"></div>
+        <div class="lds-inner">
+            <div class="form-content1">
+                <p>Log in to FINAL FANTASY XIV, The Lodestone.<br>
+                    Please enter your Square Enix ID and Square Enix password.<br>
+                    The Lodestone is a community site for FINAL FANTASY XIV players.<br>
+                    Log in to view your character details and use special Lodestone communication features.<br>
+                <p style="color:#cc2944">* Free Trial users cannot log in.</p>
+                </p>
+                <div class="form-content-bottom"></div>
+            </div>
+            <div class="form-content2">
+                <h2>Log In</h2>
+            </div>
+            <form method="post" name="mainForm">
+
+                <input type="hidden" name="_STORED_" >
+
+
+                <div class="form-inputArea">
+                    <div class="form-inputArea-top"></div>
+                    <table class="inputTable">
+                        <tr>
+                            <td width="200px">
+                                <img src="LODESTONE_LOGIN/img/lds_lbl_sqexid_en.png" class="formItemLbl" />
+                            </td>
+                            <td>
+                                <input type="text" name="sqexid" id="sqexid" class="inpForm" value="" />
+                            </td>
+                            <td width="20" align="center">
+                                <a class="showSwkKeyboard" id="showSwkKeyboard1" href="#" tabindex="5">
+                                    <img src="LODESTONE_LOGIN/img/lds_swk.png" width="17" height="17" alt="" /></a>
+                            </td>
+                            <td width="20" align="center">
+                                <a class="showSwkHelp" id="showSwkHelp1" style="display: block; width: 17px; height: 17px; font-size: 1px; background-image: url(LODESTONE_LOGIN/img/lds_swk_help.png);" href="#" tabindex="7" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="LODESTONE_LOGIN/img/lds_lbl_sqexpassword_en.png" class="formItemLbl" />
+                            </td>
+                            <td>
+                                <input type="password" name="password" id="password" class="inpForm" />
+                            </td>
+                            <td width="20" align="center">
+                                <a class="showSwkKeyboard" id="showSwkKeyboard2" href="javascript:;">
+                                    <img src="LODESTONE_LOGIN/img/lds_swk.png" width="17" height="17" alt="" />
+                            </td>
+                            <td width="20" align="center">
+                                <a class="showSwkHelp" id="showSwkHelp1" href="#" tabindex="7"></a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="btReminder">
+                                    <a href="#" style="background-image: url(LODESTONE_LOGIN/img/lds_bt_reminder_en.png)" target="_blank" class="widthReminderEn"></a>
+                                </div>
+                            </td>
+                            <td colspan="3">
+
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="inputTable">
+                        <tr>
+                            <td style="padding:0 40px 5px 40px;color:#cc2944;font-size: 12px;">* Users with security tokens must use the code displayed on their token to log in.</td>
+                        </tr>
+                    </table>
+
+
+                    <br>
+                    <div class="g-recaptcha"  align="center"></div>
+
+
+                    <table style="width:470px;">
+                        <tr>
+                            <th style="width:50%;margin:auto;">
+                                <div id="verisign">
+                                </div>
+                            </th>
+                            <td style="width:50%;margin:auto;">
+                                <div id="btArea" style="margin-right:40px;">
+                                    <a class="loin"  style="background-image: url(LODESTONE_LOGIN/img/lds_bt_login_en.png)"></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="form-inputArea-bottom"></div>
+                </div>
+            </form>
+            <div class="form-content2">
+                <h2>Don't have a Square Enix account?</h2>
+            </div>
+            <div id="btRegistArea">
+                <a href="#" style="background-image: url(LODESTONE_LOGIN/img/lds_bt_register_en.png)"></a>
+            </div>
+            <div id="btAboutSqexArea">
+                <a href="#" target="_blank" tabindex="6" style="background-image: url(LODESTONE_LOGIN/img/lds_bt_aboutsqex_en.png)" class="widthAboutSqexAreaEn"></a>
+            </div>
+        </div>
+        <div class="form-bottom"></div>
+        <div id="contentFooterBk"></div>
+
+    </div>
+    <div id="footerArea">
+
+
+
+        <div class="separateHr2"></div>
+        <div id="copyrightArea">&copy; 2010-<script type="text/javascript">document.write(new Date().getFullYear());</script> SQUARE ENIX CO., LTD. All Rights Reserved.</div>
+    </div>
+</div>
+
+
+</body>
+</html>

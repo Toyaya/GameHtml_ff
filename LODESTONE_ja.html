@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FINAL FANTASY XIV, The Lodestone</title>
+    <link rel="shortcut icon" href="CHOICELANGUAGE/img/favicon.ico">
+    <link rel="stylesheet" href="LODESTONE/css/LODESTONE_ja.css"/>
+    <link rel="stylesheet" href="LODESTONE/css/posterTvGrid.css"/>
+    <script type="text/javascript" src="LODESTONE/js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="LODESTONE/js/LODESTONE_ja.js"></script>
+    <script type="text/javascript" src="LODESTONE/js/posterTvGrid.js"></script>
+</head>
+
+<body>
+<div class="brand">
+    <div class="brand_section">
+        <div class="brand_logo">
+            <a href="http://na.square-enix.com/" target="_blank">
+                <img src="LODESTONE/img/logo_sqex.png"alt="SQUARE ENIX"/>
+            </a>
+        </div>
+        <div class="brand_search">
+            <form class="brand_search_form">
+                <div class="brand_search_focus_bg"></div>
+                <div class="brand_search_base_bg"></div>
+                <input type="text" id="txt_search" class="brand_search_text" name="q" placeholder="キーワード検索" style="overflow: hidden; width: 120px;">
+                <input type="submit" id="bt_search" class="brand_search_btn" value="">
+            </form>
+        </div>
+        <div class="brand_lang">
+            <a href="#" class="nav_lang">
+                <span class="pc_view1">日本語</span>
+                <img class="lang_now" src="HOME/img/lang_ja.png"/>
+                <span class="pc_view2">∨</span>
+            </a>
+        </div>
+        <div class="nav_ul_box">
+            <ul class="nav_ul">
+                <li>
+                    <a href="#" class="nav_ul_jp">日本語</a>
+                    <img class="lang_lo lang_lo_ja" src="HOME/img/lang_ja.png"/>
+                </li>
+                <li>
+                    <a href="LODESTONE_hk.html">English</a>
+                    <img class="lang_lo lang_lo_us" src="HOME/img/lang_en-us.png"/>
+                </li>
+                <li>
+                    <a href="#">English</a>
+                    <img class="lang_lo lang_lo_gb" src="HOME/img/lang_en-gb.png"/>
+                </li>
+                <li>
+                    <a href="#">Francais</a>
+                    <img class="lang_lo lang_lo_fr" src="HOME/img/lang_fr.png"/>
+                </li>
+                <li>
+                    <a href="#">Deutsch</a>
+                    <img class="lang_lo lang_lo_de" src="HOME/img/lang_de.png"/>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<header class="l_header">
+    <div class="l_header_inner l_header_bg_image">
+        <a href="#" class="l_header_link_top"></a>
+        <a href="#" class="l_header_link_management"></a>
+        <div class="l_header_login clearfix">
+            <a href="LODESTONE_LOGIN_ja.html" class="l_header_login_btn" target="_blank">
+            <img src="LODESTONE/img/chara_silhouette.png" class="l_header_login_chara_silhouette">
+            <div class="l_header_login_txt">
+                <p>マイキャラクター情報をチェック！</p>
+                <div>ログイン</div>
+            </div>
+        </a>
+        </div>
+    </div>
+</header>
+
+<div class="allnav">
+<div class="global_nav dropdown_box">
+    <nav class="main-nav">
+        <ul class="main-nav_area clearfix dropdown_trigger">
+            <li class="main-nav_news">
+                <a href="#" fclick="0" class="">
+                    <img src="LODESTONE/img/ja/globalmenu_news.png" width="160" height="96" alt="News">
+                </a>
+            </li>
+            <li class="main-nav_promotion">
+                <a href="HOME_ja.html" fclick="0" class="">
+                    <img src="LODESTONE/img/ja/globalmenu_final_fantasy.png" width="160" height="96" alt="About FINAL FANTASY XIV">
+                </a>
+            </li>
+            <li class="main-nav_playguide">
+                <a href="#" fclick="0" class="">
+                    <img src="LODESTONE/img/ja/globalmenu_playguide.png" width="160" height="96" alt="Play Guide">
+                </a>
+            </li>
+            <li class="main-nav_community">
+                <a href="#" fclick="0" class="">
+                    <img src="LODESTONE/img/ja/globalmenu_community.png" width="160" height="96" alt="Community">
+                </a>
+            </li>
+            <li class="main-nav_ranking">
+                <a href="#" class="" fclick="0">
+                    <img src="LODESTONE/img/ja/globalmenu_ranking.png" width="160" height="96" alt="Standings">
+                </a>
+            </li>
+            <li class="main-nav_help">
+                <a href="#" fclick="0" class="">
+                    <img src="LODESTONE/img/ja/globalmenu_help.png" width="160" height="96" alt="Help &amp; Support">
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="down_nav">
+  <div class="down_nav_child">
+    <div class="down_nav_div down_nav_1">
+        <ul>
+            <li>
+                <a href="#">最新ニュース</a>
+            </li>
+            <li>
+                <a href="#">トピックス</a>
+            </li>
+            <li>
+                <a href="#">お知らせ</a>
+            </li>
+            <li>
+                <a href="#">メンテナンス</a>
+            </li>
+            <li>
+                <a href="#">サイト更新情報</a>
+            </li>
+        </ul>
+    </div>
+    <div class="down_nav_div down_nav_2">
+        <ul>
+            <li>
+                <a href="#">蒼天のイシュガルド</a>
+            </li>
+            <li>
+                <a href="#">新生エオルゼア</a>
+            </li>
+            <li>
+                <a href="#">商品情報</a>
+            </li>
+            <li>
+                <a href="#">ベンチマーク</a>
+            </li>
+            <li>
+                <a href="#">無料体験プレイ</a>
+            </li>
+        </ul>
+    </div>
+    <div class="down_nav_div down_nav_3">
+        <ul>
+            <li>
+                <a href="#">エオルゼアデータベース</a>
+            </li>
+            <li>
+                <a href="#">ゲームプレイガイド</a>
+            </li>
+            <li>
+                <a href="#">新米冒険者ガイド</a>
+            </li>
+            <li>
+                <a href="#">ゲームコンテンツガイド</a>
+            </li>
+            <li>
+                <a href="#">死者の宮殿</a>
+            </li>
+        </ul>
+    </div>
+    <div class="down_nav_div down_nav_4">
+        <ul>
+            <li>
+                <a href="#">フォーラム</a>
+            </li>
+            <li>
+                <a href="#">日記</a>
+            </li>
+            <li>
+                <a href="#">キャラクター検索</a>
+            </li>
+            <li>
+                <a href="#">リンクシェル検索</a>
+            </li>
+            <li>
+                <img src="LODESTONE/img/lang_ic_close.png" class="navup"/>
+            </li>
+        </ul>
+    </div>
+    <div class="down_nav_div down_nav_5">
+        <ul>
+            <li>
+                <a href="#">ザ・フィースト</a>
+            </li>
+            <li>
+                <a href="#">死者の宮殿</a>
+            </li>
+            <li>
+                <a href="#">フロントライン</a>
+            </li>
+            <li>
+                <a href="#">グランドカンパニー</a>
+            </li>
+            <li>
+                <a href="#">フリーカンパニー</a>
+            </li>
+        </ul>
+    </div>
+    <div class="down_nav_div down_nav_6">
+        <ul>
+            <li>
+                <a href="#">サイトのご利用について</a>
+            </li>
+            <li>
+                <a href="#">よくあるご質問</a>
+            </li>
+            <li>
+                <a href="#">ルール＆ポリシー</a>
+            </li>
+            <li>
+                <a href="#">モグステーション</a>
+            </li>
+            <li>
+                <a href="#">スクウェア・エニックス</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+</div></div>
+
+<div class="content_wrapper">
+    <div id="posterTvGrid" class="posterTvGrid"></div>
+    <script>
+        var posterTvGrid = new posterTvGrid('posterTvGrid',{className: "posterTvGrid"},[
+                    {"img":"LODESTONE/img/ja/6ec74c9b04e1fff12201de4c1af799469188f63c.png","title":"","url":"#"},
+                    {"img":"LODESTONE/img/ja/38bf439b1377a21b05af1f6916ebb0f5d7afa6ff.png","title":"","url":"#"},
+                    {"img":"LODESTONE/img/ja/04d76f86c1abfb165784b32cef896e6194e99533.png","title":"","url":"#"},
+                    {"img":"LODESTONE/img/ja/10c94d963eeda88d900f0078cfa90482939b05a7.png","title":"","url":"#"},
+                    {"img":"LODESTONE/img/ja/30ce607fb54c7972e24f3507eccafe7adb1ffef9.png","title":"","url":"#"},
+                ]
+        );
+    </script>
+    <div id="contents" class="clearfix">
+        <div class="clearfix">
+            <div id="main">
+                <div id="toptabchanger">
+                    <ul class="news_tab toptabchanger_buttons">
+                        <li class="news_tab--newrelease">
+                            <a href="javascript:void(0);" class="active">
+                                <img src="LODESTONE/img/ja/tab_news.png">
+                            </a>
+                        </li>
+                        <li class="news_tab--topics"><a href="javascript:void(0);">
+                            <img src="LODESTONE/img/ja/tab_news.png">
+                        </a>
+                        </li>
+                        <li class="news_tab--news"><a href="javascript:void(0);">
+                            <img src="LODESTONE/img/ja/tab_news.png">
+                        </a>
+                        </li>
+                        <li class="news_tab--maintenance"><a href="javascript:void(0);">
+                            <img src="LODESTONE/img/ja/tab_news.png">
+                        </a>
+                        </li>
+                        <li class="news_tab--update"><a href="javascript:void(0);">
+                            <img src="LODESTONE/img/ja/tab_news.png">
+                        </a>
+                        </li>
+                        <li class="news_tab--obstacle"><a href="javascript:void(0);">
+                            <img src="LODESTONE/img/ja/tab_news.png">
+                        </a>
+                        </li>
+                    </ul>
+                    <div class="news_content">
+                        <div id="toptabchanger_newsarea">
+                            <div class="toptabchanger_newsbox" style="display: block">
+                                <h2 class="news_content_title">特別なお知らせ</h2>
+                                <ul class="news_content_list">
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">新規キャラクター作成制限の状況について</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/14/2017</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">エターナルセレモニーの予約／実施ができない時間について</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime"><span>01/13/2017</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">アカウント管理システム メンテナンス作業のお知らせ(1/07)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/09/2017</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">全ワールド メンテナンス作業のお知らせ(1/08) </a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/09/2017</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <h2 class="news_content_title">最新ニュース</h2>
+
+                                <ul class="news_content_list">
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">ゲーム内でのRMTおよび不正行為への対応について(1/10) </a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/13/2017</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">“PSN”メンテナンス作業のお知らせ(1/10) </a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/12/2017</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害復旧のお知らせ(1/08)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/08/2017</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">“PSN”障害発生のお知らせ(1/05)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/05/2017</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害復旧のお知らせ(1/03)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/03/2017</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="toptabchanger_newsbox" >
+                                <h2 class="news_content_title">特別なお知らせ</h2>
+                                <ul class="news_content_list">
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">新規キャラクター作成制限の状況について</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/14/2017</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">エターナルセレモニーの予約／実施ができない時間について</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/13/2017</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="news_content_list">
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">ゲーム内でのRMTおよび不正行為への対応について(1/13) </a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>01/13/2017</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">ゲーム内でのRMTおよび不正行為への対応について(1/12)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>01/12/2017</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">ゲーム内でのRMTおよび不正行為への対応について(1/05)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/05/2017</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">パッチ3.5公開以降に発生しているデータセンター単位での障害について(1/27)：続報 (12/22 17:10更新)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/22/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">パッチ3.5公開以降に発生しているデータセンター単位での障害について(12/25)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/15/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">紅蓮のリベレーター早期予約特典コードの登録再開予定および今後の対応について(1/24)(1/26 18:45更新)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/08/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">ファイナルファンタジーXIV 著作物利用許諾条件 改訂のお知らせ</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/01/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">年末年始のサポート対応について</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>11/17/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_info">
+                                            <a href="#" class="link">ゲーム内でのRMTおよび不正行為への対応について(11/17)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>11/17/2016</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="toptabchanger_newsbox" >
+                                <h2 class="news_content_title">特別なお知らせ</h2>
+                                <ul class="news_content_list">
+                                    <li class="news_content_list--header clearfix">
+                                    <span class="news_content_list--header_title ic_maintenance">
+                                        <span class="tag">[メンテナンス]</span>
+                                        <a href="#" class="link">アカウント管理システム メンテナンス作業のお知らせ(1/09)</a>
+                                    </span><span class="news_content_list--header_datetime">
+                                        <span>01/09/2017</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">全ワールド メンテナンス作業のお知らせ(1/09) </a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>01/09/2017</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                                <ul class="news_content_list">
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">“PSN”メンテナンス作業のお知らせ(12/25)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime"><span>12/25/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">モグステーション メンテナンス作業のお知らせ(12/17)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/17/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[続報]</span>
+                                            <a href="#" class="link">全ワールド メンテナンス作業 終了時間変更のお知らせ(12/11)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/11/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">全ワールド メンテナンス作業のお知らせ(12/08)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/08/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[続報]</span>
+                                            <a href="#" class="link">Aetherデータセンターワールド 緊急メンテナンス作業 終了時間変更のお知らせ(12/08)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/08/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">Aetherデータセンターワールド 緊急メンテナンス作業のお知らせ(12/08)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/08/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">Lodestone メンテナンス作業のお知らせ(12/08)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/08/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">モグステーション メンテナンス作業のお知らせ(12/08)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/08/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">Chaosデータセンターワールド 障害発生に伴う復旧作業のお知らせ(12/08)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>12/08/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[メンテナンス]</span>
+                                            <a href="#" class="link">Manaデータセンターワールド 障害発生に伴う復旧作業のお知らせ(11/15-27)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>11/15/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_maintenance">
+                                            <span class="tag">[続報]</span>
+                                            <a href="#" class="link">全ワールド メンテナンス作業 終了時間変更のお知らせ(11/15)</a>
+                                        </span>
+                                        <span class="news_content_list--header_datetime">
+                                            <span>11/15/2016</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="toptabchanger_newsbox" >
+                                <ul class="news_content_list">
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">更新のお知らせ(12/13)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/13/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">Lodestone 更新のお知らせ(11/08)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>11/08/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">Lodestone 更新のお知らせ(11/02)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>11/02/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">ライブラ エオルゼア 更新のお知らせ(11/01)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>11/01/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">更新のお知らせ(11/01)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>11/01/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">更新のお知らせ(10/18)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>10/18/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">Lodestone 更新のお知らせ(10/06)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>10/06/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">更新のお知らせ(09/30)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>09/30/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">更新のお知らせ(09/29)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>09/29/2016</span>
+                                        </span>
+                                     </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">更新のお知らせ(09/27)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>09/27/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">Lodestone 更新のお知らせ(08/28)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>08/28/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">更新のお知らせ(07/25)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>07/25/2016</span>
+                                        </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_update">
+                                            <a href="#" class="link">更新のお知らせ(07/19)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>07/19/2016</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="toptabchanger_newsbox">
+                                <ul class="news_content_list">
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害復旧のお知らせ(1/08)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>01/08/2017</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害復旧のお知らせ(1/03)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>01/03/2017</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害復旧のお知らせ(12/30)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/30/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <a href="#" class="link">Aetherデータセンターワールド 障害発生のお知らせ(12/30)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/30/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害復旧のお知らせ(12/24)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/24/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害復旧のお知らせ(12/20)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/20/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害復旧のお知らせ(12/13)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/13/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <a href="#" class="link">“PSN”障害復旧のお知らせ(12/13)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/13/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">Chaosデータセンターワールド 障害復旧作業完了のお知らせ(12/12)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/12/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">Aetherデータセンターワールド 復旧作業完了のお知らせ(12/12)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/12/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害発生のお知らせ(12/12)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/12/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害発生のお知らせ(12/12)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/12/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <a href="#" class="link">“PSN”障害発生のお知らせ(12/12)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/12/2016</span>
+                                    </span>
+                                    </li>
+                                    <li class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_obstacle">
+                                            <span class="tag">[復旧]</span>
+                                            <a href="#" class="link">“PSN”障害発生のお知らせ(12/12)</a>
+                                        </span><span class="news_content_list--header_datetime">
+                                        <span>12/12/2016</span>
+                                    </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--第二个-->
+                        <div id="toptabchanger_topicsarea">
+                            <h2 class="news_content_title">最新トピックス</h2>
+                            <div class="news_content_list">
+                                <div class="news_content_list_topics">
+                                    <li class="clearfix">
+                                        <header class="news_content_list--header clearfix">
+                                            <span class="news_content_list--header_title ic_topics">
+                                                <a href="#">「出張FFXIVプロデューサーレターLIVE in Frankfurt」詳細情報</a>
+                                            </span>
+                                            <time class="news_content_list--header_datetime">
+                                                <span>01/13/2017</span>
+                                            </time>
+                                        </header>
+                                        <div class="news_content_list_topics--body">
+                                            <a href="#" class="news_content_list_topics__link_banner">
+                                                <img src="LODESTONE/img/ja/e8198b49f0775a70acfdd8be53b99457c70f6e86.png" width="570" height="149" alt="">
+                                            </a>
+                                            2月18（土）、19日（日）にドイツ・フランクフルトで開催される「FINAL FANTASY XIV FAN FESTIVAL 2017 in Frankfurt」で放送する出張FFXIVプロデューサーレターLIVEの詳細が決まりましたのでお知らせします！<br><br>詳しくは『<a href="#">こちら</a>』をご覧ください。<br>
+
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <header class="news_content_list--header clearfix">
+                                            <span class="news_content_list--header_title ic_topics">
+                                                <a href="#">PvP応援番組！『アドレナリンラッシュTV』 2月23日（木）放送決定！</a>
+                                            </span>
+                                            <time class="news_content_list--header_datetime">
+                                                <span >01/13/2017</span>
+                                            </time>
+                                        </header>
+                                        <div class="news_content_list_topics--body">
+                                            <a href="#" class="news_content_list_topics_link_banner">
+                                                <img src="LODESTONE/img/ja/30ce607fb54c7972e24f3507eccafe7adb1ffef9.png" width="570" height="149" alt=""></a>PvP応援番組『アドレナリンラッシュTV』の次回放送日が決定しました。<br><br>本番組は、PvPコンテンツの楽しさを余すことなくお届けしています！これからPvPを始める方にも楽しんでいただける番組作りを心がけていますので、ぜひご覧ください！<br><br>今回はパッチ3.55で追加される新MAPの紹介や、新たなサプライキットについての情報もお届けしつつ、PvPに関するご質問に出来る限りお答えしていきます！<br><br>GaiaデータセンターのRidillワールドにお邪魔し、プレイヤーの皆さんと一緒にPvPを楽しみたいと思いますので、たくさんのご参加お待ちしています！
+                                            <br><br>詳しくは『<a href="#">こちら</a>』をご覧ください。
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <header class="news_content_list--header clearfix">
+                                            <span class="news_content_list--header_title ic_topics">
+                                                <a href="#">「ザ・フィースト」シーズン3閉幕迫る！</a>
+                                            </span>
+                                            <time class="news_content_list--header_datetime">
+                                                <span>01/13/2017</span>
+                                            </time>
+                                        </header>
+                                        <div class="news_content_list_topics--body"
+                                        ><a href="#" class="news__content__list__topics__link_banner">
+                                            <img src="LODESTONE/img/ja/72021abf6ca4ec3326dc972641068a0216c8a464.png" width="570" height="149" alt=""></a> いよいよ「ザ・フィースト」のシーズン3の閉幕が近づいてきました！<br>これにともない、2月21日（火）から最終結果発表まで「4対4 / ソロ専用」と「4対4 / 固定ライトパーティ専用」のランキング更新が停止され、ランキングページの順位変動が行われなくなります。
+                                            入賞を目指しシーズン閉幕まで、熱い戦いを繰り広げてください！<br><br>なお、最終結果発表は2月28日（火）を予定しています。<br><br>
+                                            「ザ・フィースト」ランキングは『<a href="#">こちら</a>』をご覧ください。
+                                    </div>
+                                    </li>
+                                    <li class="clearfix"
+                                    ><header class="news_content_list--header clearfix">
+                                        <span class="news_content_list--header_title ic_topics">
+                                            <a href="#">「第16回FFXIVコミュニティ放送」日本ファンフェスグッズプレゼント！</a>
+                                        </span>
+                                        <time class="news_content_list--header_datetime">
+                                            <span>01/13/2017</span>
+                                        </time></header><div class="news_content_list_topics--body">
+                                        <a href="#" class="news_content_list_topics_link_banner">
+                                            <img src="LODESTONE/img/ja/a3beb50415a490d78eb716ee9c91031f8170930e.png" width="570" height="149" alt=""></a>「第16回FFXIVコミュニティ放送」をご覧いただいた皆さんに、放送内でご紹介した日本ファンフェスグッズを抽選でプレゼント！ <br><br>詳しくは『<a href="#">こちら</a>』をご覧ください。
+
+                                    </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <header class="news_content_list--header clearfix">
+                                            <span class="news_content_list--header_title ic_topics">
+                                                <a href="#">公式アートブック第三弾 予約受付中！</a>
+                                            </span>
+                                            <time class="news_content_list--header_datetime">
+                                                <span>01/12/2017</span>
+                                            </time>
+                                        </header><div class="news_content_list_topics--body">
+                                        <a href="#" class="news_content_list_topics_link_banner">
+                                            <img src="LODESTONE/img/ja/04d76f86c1abfb165784b32cef896e6194e99533.png" width="570" height="149" alt=""></a>パッチ3.1～3.5までの美麗イラストをまとめた珠玉の一冊、「FINAL FANTASY XIV: HEAVENSWARD | The Art of Ishgard - The Scars of War -」が2017年3月2日（木）に発売！<br><br>イメージアートやフィールド、装飾品など様々なアートの他に、開発チームによるアートが描かれる工程も初公開！
+                                        <br><br>購入特典として、ミニオン「マメット・フレースヴェルグ」もついてきます！<br><br>
+                                        アートブックの予約は『<a href="#">こちら</a>』。
+                                    </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <header class="news_content_list--header clearfix">
+                                            <span class="news_content_list--header_title ic_topics">
+                                                <a href="#">ファイナルファンタジーXIV　メディア露出情報　－2017年2月－</a>
+                                            </span>
+                                            <time class="news_content_list--header_datetime">
+                                                <span >01/10/2017</span>
+                                            </time>
+                                        </header>
+                                        <div class="news_content_list_topics--body">
+                                            <a href="#" class="news__content__list__topics__link_banner">
+                                                <img src="LODESTONE/img/ja/e9676d94a550f2781a31c100b0682f1366e55c3f.png" width="570" height="149" alt=""></a>ファイナルファンタジーXIVの情報が掲載される雑誌やWebなどのメディア露出情報をお知らせします。
+                                            お知らせできる情報が追加されましたら、随時アップデートいたします。<br><br>
+                                            詳しくは『<a href="#">こちら</a>』をご覧ください。</div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <header class="news_content_list--header clearfix">
+                                            <span class="news_content_list--header_title ic_topics">
+                                                <a href="#">「ファイナルファンタジーXIV: 紅蓮のリベレーター」 Steamで事前販売開始</a>
+                                            </span>
+                                            <time class="news_content_list--header_datetime">
+                                                <span>01/06/2017</span>
+                                            </time>
+                                        </header>
+                                        <div class="news_content_list_topics--body">
+                                            <a href="#" class="news__content__list__topics__link_banner">
+                                                <img src="LODESTONE/img/ja/4549d10e963d2da968d101ed1f787b56a7811bd4.png" width="570" height="149" alt=""></a>Steamにおいて新たな拡張パッケージ「ファイナルファンタジーXIV: 紅蓮のリベレーター」の通常版およびコレクターズエディション版の事前販売を開始しました。<br><br>各種コードの登録についての詳細は『<a href="#">こちら</a>』をご覧ください。<br><br>
+                                            <p class="mdl-color__notes">※「予約」とは異なり、購入手続き時に支払いが発生します。<br>※Steamより購入した「ファイナルファンタジーXIV: 紅蓮のリベレーター」は、同じSteamの「ファイナルファンタジーXIV」プレイ権が紐付いているスクウェア・エニックス アカウントにのみ紐付けることができます。<br>※製品版の登録コードは、2017年6月20日以降にモグステーションより登録できます。</p>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <header class="news_content_list--header clearfix">
+                                            <span class="news_content_list--header_title ic_topics">
+                                                <a href="#">ヴァレンティオンデー</a>
+                                            </span>
+                                            <time class="news_content_list--header_datetime">
+                                                <span>01/05/2017</span>
+                                            </time>
+                                        </header>
+                                        <div class="news_content_list_topics--body">
+                                            <a href="#" class="news_content_list_topics_link_banner">
+                                                <img src="LODESTONE/img/ja/b65bc8aa768ade079af2b30c82c525393112160b.png" width="570" height="149" alt=""></a>今年も「愛」を伝える祝祭「ヴァレンティオンデー」の季節が近づいてきました。各都市や冒険者居住区にはヴァレンティオンデーを彩るハートの飾り付けが行われます。ぜひお楽しみに！<br><br>
+                                            詳しくは『<a href="#">こちら</a>』をご覧ください。
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <header class="news_content_list--header clearfix">
+                                            <span class="news_content_list--header_title ic_topics">
+                                                <a href="#">装備デザインコンテスト（遠隔魔法DPS／HEALER編）開催！</a>
+                                            </span>
+                                            <time class="news_content_list--header_datetime">
+                                                <span >01/05/2017</span>
+                                            </time>
+                                        </header>
+                                        <div class="news_content_list_topics--body">
+                                            <a href="#" class="news__content__list__topics__link_banner">
+                                                <img src="LODESTONE/img/ja/7a73001f63b9a38462fd1f6f3d3c42b89df3a9ff.png" width="570" height="149" alt=""></a>ファイナルファンタジーXIVの新しい装備を皆さんがデザインする「装備デザインコンテスト」の第二弾が始まります！<br><br>今回は「遠隔魔法DPS／HEALER編」と題して、2部門を同時開催！ 遠隔魔法DPSには、黒魔道士／召喚士に加え、日本ファンフェスで発表された「赤魔道士」も含まれます。各部門の最優秀賞として選ばれた作品はゲーム内に実装予定ですので、皆さんが「欲しい！」と思う装備のデザインを、ぜひお寄せください！
+                                            <br><br>コンテストの詳細は『<a href="#">こちら</a>』をご覧ください。
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">
+                                        <header class="news_content_list--header clearfix">
+                                            <span class="news_content_list--header_title ic_topics">
+                                                <a href="#">新年のご挨拶</a>
+                                            </span>
+                                            <time class="news_content_list--header_datetime">
+                                                <span>01/01/2017</span>
+                                            </time>
+                                        </header>
+                                        <div class="news_content_list_topics--body">
+                                            <a href="#" class="news__content__list__topics__link_banner">
+                                                <img src="LODESTONE/img/36f42294898d6a13c1df9e5731bc13c4306a3860.jpg" width="570" height="149" alt=""></a><br><br>新年、あけましておめでとうございます！<br>ファイナルファンタジーXIV プロデューサー兼ディレクターの吉田です。<br><br>謹賀新年、プレイヤーのみなさんはいかがお過ごしでしょうか？<br>変わらずエオルゼアを駆け回る方、リアルのご家族と団欒の時間を過ごしている方、はたまたコタツから出られなくなって、完全一体化してテレビを見て過ごしている方など、様々にいらっしゃると思います（笑）<br><br>僕たち開発／運営チームも、怒涛の勢いで駆け抜けた東京でのファンフェスティバルを終えて、ひさしぶりの休息を取らせていただいています。<br><br>吉田個人はようやく落ち着いてプレイ時間が取れる状況になったので、欲しかったマウントを取りにいったり、複数本目のアニマウェポンに挑戦したり、まったり友達とチャットして過ごすなど、エオルゼアの中でぼけーっと過ごしています。だらーっとゲームするのは幸せです（笑）
+                                            <br><br>振り返れば、2016年は「蒼天のイシュガルド」ではじまった、メインストーリーの第二章”竜詩戦争編”を無事完結でき、また、ディープダンジョンなど、新たなコンテンツへのチャレンジを行ってきました。FFXIVは新生版の運営開始から丸3年が経過し、安定性を最重視しつつ、徐々に新しいチャレンジへと、歩みを進めてこられた1年だったと思っています。<br><br>2回目となるファンフェスティバルでは、次期拡張パッケージである「ファイナルファンタジーXIV: 紅蓮のリベレーター」を発表し、先日の東京では、さらなる追加情報をお知らせすることができました。MMORPGにおいて拡張パッケージを順調にリリースできることは、なによりも運営や収支が安定し、じっくりと開発を行えることの表れでもあります。日頃からご愛顧いただいている光の戦士の皆さんに、あらためて御礼申し上げます。
+                                            <br><br>また、パッチ3.Xシリーズの最終章となる「宿命の果て Part1/Part2」は、ほとんどの調整を終え、あとはリリースまでの最終デバッグ作業を残すのみとなっています。「紅蓮のリベレーター」を前に、果たして光の戦士や暁のメンバーに、どのような宿命が待ち構えているのか、拡張パッケージ前の怒涛の展開に、ぜひご期待ください！
+                                            （トレーラーはお正月明けに公開となる予定です）<br><br>ぼけーっとエオルゼアで過ごしている吉田ですが、先ほど怪しげなフードの男から、謎めいた四行詩を手渡されました。さてはて、今年はどのような内容なのでしょうか……。<br><br>
+                                            <center>
+                                                <img src="LODESTONE/img/ja/45369e9dca1bcc3642869755e39038e3fa0dab66_0.png">
+                                            </center><br>英雄「光の戦士」を待ちうける、新たな冒険と出会いとは果たして……。<br>2017年も全力疾走で突っ走る、ファイナルファンタジーXIVにご期待ください！
+                                            <br><br>
+                                            <center>
+                                                <img src="LODESTONE/img/36f42294898d6a13c1df9e5731bc13c4306a3860_1.jpg">
+                                            </center><br>
+                                            <p style="text-align: right;">ファイナルファンタジーXIV プロデューサー兼ディレクター<br>吉田 直樹</p><br>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第三个-->
+                        <div id="toptabchanger_linkbutton">
+                            <a href="#" class="button bt_topics_list m0auto mt10 toptabchanger_linkbutton" style="display: block;"></a>
+                            <a href="#" class="button bt_backnumber m0auto mt10 toptabchanger_linkbutton"style="display: none;" ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="side">
+                <div class="l_rside_bnr clearfix">
+                    <a href="#" target="_blank" class="l_rside_bnr--forums">
+                        <img src="LODESTONE/img/bnr_forums.png" width="145" height="60" alt="Forums">
+                    </a>
+                    <a href="#" target="_blank" class="l_rside_bnr--mog_station">
+                        <img src="LODESTONE/img/bnr_mog_station.png" width="145" height="60" alt="Mog Station">
+                    </a>
+                </div>
+
+                <div class="conducting_area">
+                    <img src="LODESTONE/img/ja/bn_package_ja.png" width="300" height="218" alt="">
+                    <div class="inr">
+                        <a href="#"class="bt_conducting1">
+                        </a>
+                        <a href="#" class="bt_conducting2" target="_blank">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/LDS用_ベンチマークv30_na.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/bn_officialBlog_na.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#">
+                        <img src="LODESTONE/img/LDS_R_ver40_na_1226.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/bn_fankit_na.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#">
+                        <img src="LODESTONE/img/PC_死者の宮殿ランキング_na.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/title_nanjou.jpg">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/Lodestone-Aikome_Hibiki.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/Lodestone-Aikome_Onsen.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/_最終版_Lodestone-Cafe.jpg">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/アライアンスパートナー_na.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/jp_gakuen_eorzea.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/official_goods.jpg">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/callbackbanner_ja.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#">
+                        <img src="LODESTONE/img/bn_Recruit_a_Friend_na.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/bn_eternalbonding_en-gb.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/PC_蒼天秘話_ja.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/ライブラエオルゼア_ja.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/PC_LDS_ARTV_300x80.jpg">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/bn_spqr_ja.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <a href="#" target="_blank">
+                        <img src="LODESTONE/img/ja/開発スタッフ募集_ja.png">
+                    </a>
+                </div>
+
+                <div class="mb10">
+                    <div class="my_community">
+                        <div class="base_header_w300_long">
+                            <div class="base_footer_w300 pb6">
+                                <a href="#" title="Community Wall">
+                                    <h3 id="com_wall_title" class="header_title"></h3>
+                                </a>
+
+                                <div class="narrowdown_box header_title_btn dropdown_trigger_box">
+                                    <a href="#" class="button bt_edit dropdown_trigger tooltip" title="Filter" fclick="0"></a>
+                                </div>
+
+                                <div class="area_header_w300">
+                                    <div class="area_footer_w300">
+                                        <div class="area_body_w300">
+                                            <ul class="list_style1">
+                                                <li class="more_">
+                                                    <div class="inner clearfix">
+                                                    <div class="thumb_cont_black_40">
+                                                        <a href="/lodestone/character/1690261/">
+                                                            <img src="LODESTONE/img/043882fd30e0ffd5fd8d989054236d29_9eb3c19866f7ae0eeeffac7bf770aba5fc0_96x96.jpg" width="40" height="40" alt=""></a>
+                                                    </div>
+                                                    <div class="list_style1_inner">
+                                                        <span class="txt_gray">
+                                                            <span>01/14/2017 2:19 PM</span>
+                                                        </span>
+                                                        <br>
+                                                        <a href="#">Miyano</a> (Valefor)さんが日記[<a href="#">奇跡？？</a>]を公開しました。
+                                                    </div>
+                                                </div>
+                                                </li>
+
+                                                <li class="more_">
+                                                    <div class="inner clearfix">
+                                                        <div class="thumb_cont_black_40">
+                                                            <a href="/lodestone/character/1690261/">
+                                                                <img src="LODESTONE/img/0e0bcd554e2cad7af6bb32230f315cee_87b7d447f40b06dfc7228caf195f7dcffc0_96x96.jpg" width="40" height="40" alt=""></a>
+                                                        </div>
+                                                        <div class="list_style1_inner">
+                                                        <span class="txt_gray">
+                                                            <span>01/14/2017 2:18 PM</span>
+                                                        </span>
+                                                            <br>
+                                                            <a href="#">彭丽援</a> (Diabolos)が結成されました。
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="more_">
+                                                    <div class="inner clearfix">
+                                                        <div class="thumb_cont_black_40">
+                                                            <a href="/lodestone/character/1690261/">
+                                                                <img src="LODESTONE/img/c945c851b7e4428368d9d9fda16009ff_485f4777c38002871591fb54f27edc65fc0_96x96.jpg" width="40" height="40" alt=""></a>
+                                                        </div>
+                                                        <div class="list_style1_inner">
+                                                        <span class="txt_gray">
+                                                            <span>01/14/2017 2:15 PM</span>
+                                                        </span>
+                                                            <br>
+                                                            <a href="#">Toya丶</a>  (Shinryu)さんが日記[<a href="#">アレキサンダー天道零式4層、2日限定PT募集~\(≧▽≦)/~</a>]を公開しました。
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="more_">
+                                                    <div class="inner clearfix">
+                                                        <div class="thumb_cont_black_40">
+                                                            <a href="/lodestone/character/1690261/">
+                                                                <img src="LODESTONE/img/f2b2b334d9ed20e5b7910ec67bd01178_7bb6b1e488f0e4f01c5314d010b60f31fc0_96x96.jpg" width="40" height="40" alt=""></a>
+                                                        </div>
+                                                        <div class="list_style1_inner">
+                                                        <span class="txt_gray">
+                                                            <span >01/14/2017 2:13 PM</span>
+                                                        </span>
+                                                            <br>
+                                                            <a href="#">Kauto</a>   (Pandaemonium)さんがイベント[<a href="#">日々鍛錬~！！！</a>].
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="more_">
+                                                    <div class="inner clearfix">
+                                                        <div class="thumb_cont_black_40">
+                                                            <a href="/lodestone/character/1690261/">
+                                                                <img src="LODESTONE/img/1c6f9381cb0ce99d8e1c730d2ffab689_a91aae52cff9ef65932db06b150ffd47fc0_96x96.jpg" width="40" height="40" alt=""></a>
+                                                        </div>
+                                                        <div class="list_style1_inner">
+                                                        <span class="txt_gray">
+                                                            <span >01/14/2017 2:12 PM</span>
+                                                        </span>
+                                                            <br>
+                                                            <a href="#">新堂东仔</a>(Atomos) さんがイベント [<a href="#">【初見】ダンスカー攻略会！In Atomos 【告知用】</a>].
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="more_">
+                                                    <div class="inner clearfix">
+                                                        <div class="thumb_cont_black_40">
+                                                            <a href="/lodestone/character/1690261/">
+                                                                <img src="LODESTONE/img/7bf02d96189e4f1e81d27001ac1d5a67_8f82f937943b6baf4c565020d5eba0ccfc0_96x96.jpg" width="40" height="40" alt=""></a>
+                                                        </div>
+                                                        <div class="list_style1_inner">
+                                                        <span class="txt_gray">
+                                                            <span >01/14/2017 2:11 PM</span>
+                                                        </span>
+                                                            <br>
+                                                            <a href="#">菌菌君</a> (Gungnir) さんがイベント [<a href="#">メンターになったらしい。</a>].
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="more_">
+                                                    <div class="inner clearfix">
+                                                        <div class="thumb_cont_black_40">
+                                                            <a href="/lodestone/character/1690261/">
+                                                                <img src="LODESTONE/img/85ef7d8ccfb4148d1310ed5f2fe23d16_9df1b3cb0da35db33c17ef11ddf12adafc0_96x96.jpg" width="40" height="40" alt=""></a>
+                                                        </div>
+                                                        <div class="list_style1_inner">
+                                                        <span class="txt_gray">
+                                                            <span >01/14/2017 2:11 PM</span>
+                                                        </span>
+                                                            <br>
+                                                            <a href="#">Mimos Chesta </a> (Unicorn) さんがイベント [<a href="#">qimo'te</a>].
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="more_">
+                                                    <div class="inner clearfix">
+                                                        <div class="thumb_cont_black_40">
+                                                            <a href="/lodestone/character/1690261/">
+                                                                <img src="LODESTONE/img/5022dd712f0fac58cbdc53053309575d_393eb74047bb90c8d80dea54218430eefc0_96x96.jpg" width="40" height="40" alt=""></a>
+                                                        </div>
+                                                        <div class="list_style1_inner">
+                                                        <span class="txt_gray">
+                                                            <span >01/14/2017 2:11 PM</span>
+                                                        </span>
+                                                            <br>
+                                                            <a href="#">Inkend </a> (Shinryu) さんがイベント  [<a href="#">ブログ更新</a>].
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="more_">
+                                                    <div class="inner clearfix">
+                                                        <div class="thumb_cont_black_40">
+                                                            <a href="/lodestone/character/1690261/">
+                                                                <img src="LODESTONE/img/785a3d5c857a779bb3b1337757b455eb_a4730651230dd43cb129562a30d531aefc0_96x96.jpg" width="40" height="40" alt=""></a>
+                                                        </div>
+                                                        <div class="list_style1_inner">
+                                                        <span class="txt_gray">
+                                                            <span >01/14/2017 2:09 PM</span>
+                                                        </span>
+                                                            <br>
+                                                            <a href="#">拉面面 </a>(Ridill) さんがイベント  [<a href="#">かぜのたにのー（何度目だ）</a>].
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="base_footer_w3000">
+                                    <img src="LODESTONE/img/w300_footer.png"/>
+                                    <a href="#" class="button bt_mypage_community m0auto mt6"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb10">
+                    <div class="my_ranking">
+                        <div class="base_header_w300_long">
+                            <div class="base_footer_w300 pb6">
+                                <div class="base_body_w300">
+                                    <a href="#" title="Standings">
+                                        <h3 class="header_title title_ranking_picup"></h3>
+                                    </a>
+
+                                    <div class="area_header_w300">
+                                        <div class="area_footer_w300">
+                                            <div class="area_body_w300">
+                                        <div class="tit_cont">
+                                            <h2 class="ic_gold">ザ・フィースト ランキング(ソロ)</h2>
+                                        </div>
+
+                                        <ul class="list_style1">
+                                            <li><a href="#" target="_blank">
+                                                <div class="inner">
+                                                <div class="rank_crown_1 clearfix">
+                                                    <div class="thumb_cont_black_40">
+                                                        <img src="LODESTONE/img/4c625d0efdb767c2c4b91d3ef41c2bc8_7a573cbc0cda3a3dfc1795cb3d9f7b23fc0_96x96.jpg" width="40" height="40" alt="">
+                                                    </div>
+                                                    <h2 class="player_name_gold">Nex Cross
+                                                        <br><span> (Balmung)</span></h2>
+                                                </div>
+                                            </div>
+                                            </a>
+                                            </li>
+                                            <li><a href="#" target="_blank"><div class="inner">
+                                                <div class="rank_crown_2 clearfix">
+                                                    <div class="thumb_cont_black_40">
+                                                        <img src="LODESTONE/img/0c6162a964b8bbc05c87ade666e405d2_7a573cbc0cda3a3dfc1795cb3d9f7b23fc0_96x96.jpg" width="40" height="40" alt="">
+                                                    </div>
+                                                    <h2 class="player_name_gold">Ava Jinsoku
+                                                        <br><span> (Balmung)</span></h2>
+                                                </div>
+                                            </div></a></li>
+                                            <li><a href="#" target="_blank"><div class="inner">
+                                                <div class="rank_crown_3 clearfix">
+
+                                                    <div class="thumb_cont_black_40">
+                                                        <img src="LODESTONE/img/ac362570a020274e66ec0b267eda2d9e_7a573cbc0cda3a3dfc1795cb3d9f7b23fc0_96x96.jpg" width="40" height="40" alt="">
+                                                    </div>
+                                                    <h2 class="player_name_gold">Straigus Reyist
+                                                        <br><span> (Balmung)</span></h2>
+                                                </div>
+                                            </div></a></li>
+                                        </ul>
+                                    </div></div></div>
+                                    <span class="space"></span>
+
+                                    <div class="area_header_w300">
+                                        <div class="area_footer_w300">
+                                            <div class="area_body_w300">
+                                                <div class="tit_cont">
+                                                    <h2 class="ic_gold">ザ・フィースト ランキング(パーティ)</h2>
+                                                </div>
+
+                                                <ul class="list_style1">
+                                                    <li><a href="#" target="_blank">
+                                                        <div class="inner">
+                                                            <div class="rank_crown_1 clearfix">
+                                                                <div class="thumb_cont_black_40">
+                                                                    <img src="LODESTONE/img/036e6e1ab8b12aa8ad4869ba3ed06c2b_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg" width="40" height="40" alt="">
+                                                                </div>
+                                                                <h2 class="player_name_gold">World Champion
+                                                                    <br><span> (Gilgamesh)</span></h2>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    </li>
+                                                    <li><a href="#" target="_blank"><div class="inner">
+                                                        <div class="rank_crown_2 clearfix">
+                                                            <div class="thumb_cont_black_40">
+                                                                <img src="LODESTONE/img/497ebd2d1e962b34f90828959b9c3683_7a573cbc0cda3a3dfc1795cb3d9f7b23fc0_96x96.jpg" width="40" height="40" alt="">
+                                                            </div>
+                                                            <h2 class="player_name_gold">Plus One
+                                                                <br><span> (Balmung)</span></h2>
+                                                        </div>
+                                                    </div></a></li>
+                                                    <li><a href="#" target="_blank"><div class="inner">
+                                                        <div class="rank_crown_3 clearfix">
+
+                                                            <div class="thumb_cont_black_40">
+                                                                <img src="LODESTONE/img/d7909a8af57a7355c0911b0ad4afb6ac_7a573cbc0cda3a3dfc1795cb3d9f7b23fc0_96x96.jpg" width="40" height="40" alt="">
+                                                            </div>
+                                                            <h2 class="player_name_gold">Stefan Delumiere
+                                                                <br><span> (Balmung)</span></h2>
+                                                        </div>
+                                                    </div></a></li>
+                                                </ul>
+                                            </div></div></div>
+                                    <span class="space"></span>
+
+                                    <div class="area_header_w300">
+                                        <div class="area_footer_w300">
+                                            <div class="area_body_w300">
+                                                <div class="tit_cont">
+                                                    <h2 class="ic_gold">グランドカンパニーランキング</h2>
+                                                </div>
+
+                                                <ul class="list_style1">
+                                                    <li><a href="#" target="_blank">
+                                                        <div class="inner">
+                                                            <div class="rank_crown_1 clearfix">
+                                                                <div class="thumb_cont_black_40">
+                                                                    <img src="LODESTONE/img/b0476a202fb7fa26fb59fa6de91ce385_d7a9d5f85a29d6278ec1c7adc2c8d242fc0_96x96.jpg" width="40" height="40" alt="">
+                                                                </div>
+                                                                <h2 class="player_name_gold">Sith Judn
+                                                                    <br><span> (Moogle)</span></h2>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    </li>
+                                                    <li><a href="#" target="_blank"><div class="inner">
+                                                        <div class="rank_crown_2 clearfix">
+                                                            <div class="thumb_cont_black_40">
+                                                                <img src="LODESTONE/img/91e974994ea3bc1baa59da83e2f2c9ff_cf768a751b1f5e355c2fd39a9ed91f3ffc0_96x96.jpg" width="40" height="40" alt="">
+                                                            </div>
+                                                            <h2 class="player_name_gold">Mike rui
+                                                                <br><span> (Atomos)</span></h2>
+                                                        </div>
+                                                    </div></a></li>
+                                                    <li><a href="#" target="_blank"><div class="inner">
+                                                        <div class="rank_crown_3 clearfix">
+
+                                                            <div class="thumb_cont_black_40">
+                                                                <img src="LODESTONE/img/82b2e6e094597d18edf7b104025a9cc8_7126768d768f6c6c7fed3eaee98c3a8afc0_96x96.jpg" width="40" height="40" alt="">
+                                                            </div>
+                                                            <h2 class="player_name_gold">Miahle Bec
+                                                                <br><span> (Tonberry)</span></h2>
+                                                        </div>
+                                                    </div></a></li>
+                                                </ul>
+                                            </div></div></div>
+                                    <span class="space"></span>
+
+                                    <div class="area_header_w300">
+                                        <div class="area_footer_w300">
+                                            <div class="area_body_w300">
+                                                <div class="tit_cont">
+                                                    <h2 class="ic_gold">フリーカンパニーランキング</h2>
+                                                </div>
+
+                                                <ul class="list_style1">
+                                                    <li><a href="#" target="_blank">
+                                                        <div class="inner">
+                                                            <div class="rank_crown_1 clearfix">
+                                                                <div class="thumb_cont_black_40">
+                                                                    <img src="LODESTONE/img/20170114205437617.jpg" width="40" height="40" alt="">
+                                                                </div>
+                                                                <h2 class="player_name_gold">Cait Sith
+                                                                    <br><span> (Atomos)</span></h2>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    </li>
+                                                    <li><a href="#" target="_blank"><div class="inner">
+                                                        <div class="rank_crown_2 clearfix">
+                                                            <div class="thumb_cont_black_40">
+                                                                <img src="LODESTONE/img/20170114205514778.jpg" width="40" height="40" alt="">
+                                                            </div>
+                                                            <h2 class="player_name_gold">Lions Of Eorzea
+                                                                <br><span> (Moogle)</span></h2>
+                                                        </div>
+                                                    </div></a></li>
+                                                    <li><a href="#" target="_blank"><div class="inner">
+                                                        <div class="rank_crown_3 clearfix">
+
+                                                            <div class="thumb_cont_black_40">
+                                                                <img src="LODESTONE/img/20170114205548874.jpg" width="40" height="40" alt="">
+                                                            </div>
+                                                            <h2 class="player_name_gold">Umbral-kiss 4 MIA
+                                                                <br><span> (Durandal)</span></h2>
+                                                        </div>
+                                                    </div></a></li>
+                                                </ul>
+                                            </div></div></div>
+                                    <span class="space"></span>
+
+                                    <div class="area_header_w300">
+                                        <div class="area_footer_w300">
+                                            <div class="area_body_w300">
+                                                <div class="tit_cont">
+                                                    <h2 class="ic_gold">フロントラインランキング</h2>
+                                                </div>
+
+                                                <ul class="list_style1">
+                                                    <li><a href="#" target="_blank">
+                                                        <div class="inner">
+                                                            <div class="rank_crown_1 clearfix">
+                                                                <div class="thumb_cont_black_40">
+                                                                    <img src="LODESTONE/img/1c6f9381cb0ce99d8e1c730d2ffab689_a91aae52cff9ef65932db06b150ffd47fc0_96x96.jpg" width="40" height="40" alt="">
+                                                                </div>
+                                                                <h2 class="player_name_gold">Droop Loop
+                                                                    <br><span> (Leaivthan)</span></h2>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    </li>
+                                                    <li><a href="#" target="_blank"><div class="inner">
+                                                        <div class="rank_crown_2 clearfix">
+                                                            <div class="thumb_cont_black_40">
+                                                                <img src="LODESTONE/img/0e088e970d995851cc4ef1e858839c21_3fbff0e6b620e4d259dc427abc6574dafc0_96x96.jpg" width="40" height="40" alt="">
+                                                            </div>
+                                                            <h2 class="player_name_gold">Rulax Utamul
+                                                                <br><span> (Shiva)</span></h2>
+                                                        </div>
+                                                    </div></a></li>
+                                                    <li><a href="#" target="_blank"><div class="inner">
+                                                        <div class="rank_crown_3 clearfix">
+
+                                                            <div class="thumb_cont_black_40">
+                                                                <img src="LODESTONE/img/a700eb4b4590336d82abb270876b5100_ce736afe35e2ded4e46c4fd0659aef7efc0_96x96.jpg" width="40" height="40" alt="">
+                                                            </div>
+                                                            <h2 class="player_name_gold">Hollow Melody
+                                                                <br><span> (Jenova)</span></h2>
+                                                        </div>
+                                                    </div></a></li>
+                                                </ul>
+                                            </div></div></div>
+                                </div>
+                                <div class="base_footer_w3000">
+                                    <img src="LODESTONE/img/w300_footer.png"/>
+                                    <a href="#" class="button bt_mypage_community m0auto mt6"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="link_spsite" class="link_sp-site">
+    <a href="#">スマートフォン版へ</a><br>
+</div>
+
+<footer class="l_footer">
+    <div class="page-top">
+        <span class="page-top__btn page-top__btn--absolute" style="right: 64px; opacity: 0.5;"></span>
+    </div>
+<!--最底下-->
+    <div class="l_footer_inner">
+        <div class="l_footer_logo">
+            <img src="LODESTONE/img/logo.png" width="320" height="32" alt="">
+        </div>
+        <div class="l_footer_information l_footer_information--na">
+            <img src="LODESTONE/img/line.png" width="11" height="64" alt="" class="l_footer_information_line">
+            <div class="l_footer_information_title">
+                <p class="l_footer_officielles_title">Official Information</p>
+                <p class="l_footer_platformes_title">Platforms</p>
+            </div>
+            <div class="l_footer_information_items">
+                <ul class="l_footer_officielles_link">
+                    <li>
+                        <a href="#"target="_blank" class="l_footer_officielles_link--fb">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" class="l_footer_officielles_link--tw">Twitter</a> / <a href="#" target="_blank">Twitter News</a></li><li><a href="http://www.youtube.com/finalfantasyxiv" target="_blank" class="l_footer_officielles_link--yt">Official Channel</a>
+                </li>
+                    <li>
+                        <a href="https://www.instagram.com/ffxiv/" target="_blank" class="l_footer_officielles_link--ig">Instagram</a>
+                    </li>
+                </ul>
+                <p class="l_footer_platformes_items">PlayStation®4, PlayStation®3, Windows®, Mac</p>
+            </div>
+        </div>
+        <ul class="l_footer_link-list">
+            <li class="link_license" id="link_license">
+                <a href="#" onclick="window.open('/lodestone/help/license/','License','width=684,height=700,scrollbars=yes,resizable=no') ; return false ;">License</a></li><li><a href="http://support.na.square-enix.com/rule.php?id=5382&amp;la=1" target="_blank">Rules &amp; Policies</a>
+        </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

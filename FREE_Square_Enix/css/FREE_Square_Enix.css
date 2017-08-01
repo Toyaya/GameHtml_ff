@@ -1,0 +1,271 @@
+body html{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+p {
+    color: #fff;
+    letter-spacing: 0.08em;
+    font-weight: 300;
+    color: #eee;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ul li {
+    text-align: left;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.hero, .media-hero-bg {
+    min-height: 790px;
+}
+.hero {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    position: relative;
+    overflow: hidden;
+    max-height: 100vh;
+}
+.media-hero-bg {
+    position: absolute;
+    display:block;
+    top: 0;
+    width: 100%;
+    background-image: url(../img/poster-hero.jpg);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+video {
+    object-fit: contain;
+}
+.text-hero {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+.text-center {
+    text-align: center;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hero #logo {
+    width: 100%;
+    max-width: 700px;
+    padding: 5vh 0 1vw;
+}
+.hero #free-trial {
+    padding-top: 2em;
+    font-weight: 500;
+    font-size: 1.3em;
+    text-shadow: 0px 0px 6px white;
+    color: #333;
+}
+@media (min-width: 1200px){
+    .col-lg-offset-1 {
+        margin-left: 8.33333333%;
+    }}
+@media (min-width: 1200px){
+    .col-lg-10 {
+        width: 83.33333333%;
+    }}
+@media (min-width: 1200px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+    }}
+.download-btn{
+    background-image: url(../img/button_background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 484px;
+    height: 82px;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2.25;
+    margin: 3vw auto;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    text-shadow: 0 0 6px white;
+    font-family: "Alegreya SC",serif;
+    font-weight: bold;
+    opacity: .75;
+    transition: all 0.15s ease-out;
+    text-decoration: underline;
+}
+.download-btn:hover{
+    text-decoration: none;
+    opacity: .9;
+}
+#panel1 {
+    background: url('../img/dragon-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    min-height: 30vw;
+    text-align: center;
+    padding: 5em 0;
+    display: block;
+    text-shadow: 2px 2px #000;
+}
+.horizontal {
+    position: absolute;
+    z-index: 2;
+    top: -9px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: url("../img/horizontal.png") repeat-x;
+    height: 20px;
+}
+.separator {
+    position: absolute;
+    z-index: 3;
+    top: -18px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 450px;
+    max-width: 100%;
+}
+@media (min-width: 992px){
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }}
+@media (min-width: 992px){
+    .col-md-8 {
+        width: 66.66666667%;
+    }}
+#panel1 .onboarding-video {
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 53px 3px rgba(255, 237, 184, .3);
+}
+.embed-responsive.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.text-center {
+    text-align: center;
+}
+footer {
+    color: #fff;
+    position: relative;
+    min-height: 50px;
+    background: #090F1C;
+    padding: 50px 0 15px;
+}
+footer ul {
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+footer .legal-block {
+    padding: 20px 0 50px 0;
+    font-size: 12px;
+}
+.legal-block a:hover{
+    color: darkslategray;
+}
+/*隐藏*/
+#header-scrolled {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 1041;
+    width: 100%;
+    display: none;
+    height: 80px;
+    background: url('../img/header-scrolled-bg.jpg') repeat-x;
+}
+@media (min-width: 768px){
+    .col-sm-4 {
+        width: 33.33333333%;
+    }}
+#header-scrolled #logo1 {
+    height: 100px;
+    padding-top: 10px;
+}
+@media (min-width: 768px){/*如果文档宽度大于 3768 像素则修改背景演示(width: 50%;):*/
+    .col-sm-6 {
+        width: 50%;
+    }}
+
+.col-sm-6,.col-sm-4{
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
+.text-right {
+    text-align: right;
+}
+@media (min-width: 768px){
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }}
+
+#header-scrolled .download-btn, #header-scrolled .download-btn:hover, #header-scrolled .download-btn:visited, #header-scrolled .download-btn:active, #header-scrolled .download-btn:focus {
+    background-size: contain;
+    display: inline-block;
+    margin-top: 8px;
+    width: 55%;
+    line-height: 2.5;
+    font-size: 1.6em;
+    min-width: 370px;
+    outline: none;
+    max-width: 430px;
+    text-decoration: none;
+}
+
+
+
+
